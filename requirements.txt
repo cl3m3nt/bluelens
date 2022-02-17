@@ -1,0 +1,4 @@
+tensorflow==2.6.0
+keras==2.6.0
+pyparsing==2.4.7
+imageio==2.13.5
