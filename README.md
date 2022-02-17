@@ -50,7 +50,7 @@ To train an EfficientDet model you can run this [notebook](training/bluelens_TFl
 This is adapted from this [colab notebook](https://colab.research.google.com/github/google-coral/tutorials/blob/master/retrain_efficientdet_model_maker_tf2.ipynb).\
 You can also simply execute the training [script](training/bluelens_TFlite_efficientDet_edge_tpu.py):
 ```shell
-python bluelens_TFlite_efficientDet.py
+python bluelens_TFlite_efficientDet_training.py
 ```
 
 ## TF SSD_Mobilenet model
