@@ -6,13 +6,13 @@ Aware of how important this resource is, the Bergson Highschool team will build 
 <img width="595" alt="bluelens experiment" src="bluelens_experiment.png">
 
 # Bluelens Astro Pi experiment
-The Bluelens experiment designed by the Bergson Highschool team is available [here](inference/bluelens_TFlite_inference_edge_tpu.py).
+The Bluelens experiment designed by the Bergson Highschool team is available [here](src/main.py).
 Be aware that this code can only be successfully run on Astro Pi Hardware which is a Raspberry Pi 4B model with Coral TPU Edge accelerator and a Pi Camera, as well as Astro Pi prepared Operating System.
 To run the Bluelens experiment you can execute the following script from within Astro Pi HW:
 ```shell
-python bluelens_TFlite_inference_edge_tpu.py
+python3 main.py
 ```
-The experiment will take photo from the camera and detect whether it contains Water, Cloud or Ground areas.
+The experiment will take photo from the camera and detect whether it contains Water, Cloud or Ground areas using Deep Learning Object Detection technology.
 
 # Pre-Requesite
 
